@@ -11,10 +11,13 @@
   </head>
   <body>
     <div class="main">
-      <form action="/personal-details" method="post">
-        <input type="email" name="email" id="email">
-        <input type="text" name="name" id="name">
-        <input type="text" name="address" id="address">
+      <form action="/personal-details.php" method="post">
+        <input type="email" name="email" id="email"
+        required>
+        <input type="text" name="name" id="name"
+        required>
+        <input type="text" name="address" id="address"
+        required>
         <input type="tel" name="phone" id="phone">
         <input type="color" name="color" id="color">
         <input type="date" name="delivery_date" id="delivery_date">
